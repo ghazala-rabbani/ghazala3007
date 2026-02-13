@@ -85,26 +85,29 @@ The model predicts risk rating for new individuals based on their:
 •⁠  ⁠Income
 •⁠  ⁠Credit Score
 
-##Results
+## Results
 
 After training the Logistic Regression model on the synthetic dataset:
-	•	The model achieved a strong accuracy score on the test dataset.
-	•	A detailed classification report was generated including:
-	•	Precision
-	•	Recall
-	•	F1-Score
-	•	Support
+
+•⁠  ⁠The model achieved a strong *accuracy score* on the test dataset.
+•⁠  ⁠A detailed *classification report* was generated including:
+  - Precision
+  - Recall
+  - F1-Score
+  - Support
 
 These evaluation metrics measure how effectively the model distinguishes between:
-	•	1 → High Risk
-	•	0 → Low Risk
 
-Example Predictions
+•⁠  ⁠*1 → High Risk*
+•⁠  ⁠*0 → Low Risk*
+
+### Example Predictions
 
 The model was tested on new sample data:
 
-Age	Income	Credit Score	Predicted Risk
-30	50000	700	Low Risk (0)
-22	25000	550	High Risk (1)
+| Age | Income | Credit Score | Predicted Risk |
+|-----|--------|-------------|----------------|
+| 30  | 50000  | 700         | Low Risk (0)   |
+| 22  | 25000  | 550         | High Risk (1)  |
 
 The model successfully classifies financial risk based on age, income, and credit score using patterns learned during training.
