@@ -1,2 +1,2 @@
 # ghazala3007
-I am currently learning HTML, CSS, Python, and backend development. I enjoy building web and backend projects to improve my programming and full-stack development skills.
+Machine Learning-focused developer with a foundation in IT and programming. Building data-driven applications using Python, and developing full-stack solutions with React, Laravel, and Tailwind. Expanding expertise in cybersecurity and secure coding practices.
